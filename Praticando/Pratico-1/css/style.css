@@ -1,0 +1,118 @@
+/* Style Geral */
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: auto;
+ background-color: #eeeeee;
+ margin:30px 8px 30px 8px;
+ border-radius: 4px;
+ text-align: center;
+ color: #333333;
+}
+/* Header */
+.titulo {
+  padding: 40px 0 5px 0 ;
+}
+
+.titulo h1{
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: bold;
+}
+/* Tributo */
+.bg-img{
+  background-color: #fff;
+  margin: 20px;
+}
+
+@media screen and (max-width:1110px) {
+#image{
+  max-width: 100%;
+}
+
+.figure-img {
+  padding: 0 10px 0 10px;
+}
+}
+
+.figure-img figcaption {
+  padding: 20px 0 20px 0;
+  font-size:17px ;
+}
+
+/* Info */
+
+.info h2{
+  font-size: 21px;
+  margin: 45px 0 45px 0;
+  font-weight: bold;
+}
+@media screen and (max-width:1110px){
+.info ul{
+  text-align: left;
+  margin: 0 90px;
+ 
+}
+}
+.info ul li{
+  margin:0 0 25px 0;
+  font-size: 17px;
+  line-height:25px;
+  letter-spacing: 0.5px;
+}
+
+  .info ul{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 580px;
+}
+
+
+/* QUOTE*/
+
+.quote {
+  margin: 0 auto;
+  max-width:550px ;
+  text-align: left;
+  margin-top: 50px;
+  line-height: 22px;
+  font-style: italic;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+.quote p {
+  margin-bottom: 20px;
+}
+
+/* link-wik */
+
+.link{
+  padding: 60px 0 60px 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.link a{
+  color:#477ca7
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
