@@ -1,0 +1,149 @@
+/* Geral */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ /* Formatando Links (a) */
+a {
+    text-decoration: none;
+}
+ 
+/* Background */
+body {
+    background-image: url(pictures/hero-bg.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;     
+}
+
+.background-color {
+    height: 100vh;
+    background: #010486;
+    opacity: 92%;
+}
+
+/* Header */
+
+.navegacao {
+    height: auto;
+    width:1130px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header span {
+    color:#f5f8ff;
+    font-size: 28px;
+}
+
+.lista-nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.lista-nav ul li {
+    margin-right: 26px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lista-nav ul li a {
+    color: #d7d8f0;
+    
+}
+
+.lista-nav ul li a:hover {
+    color:#f5f8ff;
+}
+
+
+
+.lista-nav ul li:hover:after{
+    content: "";
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color:#32baaf;
+    margin-top: 8px;    
+}
+
+.home:after {
+    content:"" ; 
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color:#32baaf;
+    margin-top: 8px;  
+}
+
+
+
+/* MAIN */
+
+main{
+    margin-top:50px;
+    color:#d0d1ed;
+}
+
+.principal {
+    display:flex;
+    justify-content: center;
+    height:auto;
+    width:1130px;
+    margin:0 auto;
+}
+
+.principal div {
+    align-self:center;
+    font-size:22px ;   
+}
+
+.principal h1{
+    max-width:600px; 
+}
+
+.withe {
+    color:white;    
+    text-decoration: underline solid #32baaf;
+    text-underline-position: under;
+    
+}
+
+
+main h2 {
+    font-weight:normal;
+    font-size: 25px;
+    max-width:600;
+}
+
+.hero-img img {
+    height: 600px;
+    width: auto;
+}
+
+.bottom {
+    background: #1acc8d;
+    width:160px;
+    height: 44px;
+    border-radius: 30px;
+
+}
+
+.bottom a{
+    cursor: pointer;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    color:#fff;
+    display: inline-block;
+    font-weight: normal;
+    font-size:17px;
+    margin:2px auto;
+
+}
+
+
+

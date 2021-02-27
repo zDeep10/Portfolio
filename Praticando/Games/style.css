@@ -1,0 +1,61 @@
+/* Geral */
+body {
+   background-color: rgb(32, 32, 32);
+}
+/* HEADER */
+header h1 {
+    position: relative;
+    top: 20px;
+     text-align: center;
+     color: #ffffff;
+     font-weight: lighter;
+     font-size: 30px;
+}
+/* CONTEUDO PRINCIPAL */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 88vh;
+    margin: 0 auto;
+}
+
+/* IMAGENS */
+.bloco-esquerdo img {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.bloco-direito img {
+    height: 635px;
+    border-radius: 30px;
+    margin-left: 35px;
+}
+
+.img2 {
+    margin-top: 35px;
+}
+
+/* BLOCOS */
+.bloco-esquerdo  {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco-direito{
+    display: flex;  
+}
+
+/* Texto */
+.bloco-direito p {
+    padding-top: 35px;
+    font-size: 20px;
+    margin-left: 50px;
+    max-width: 400px;
+    color: #ffffff;
+    line-height: 35px;
+}
+/* FIM */

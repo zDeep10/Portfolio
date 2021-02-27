@@ -1,0 +1,92 @@
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+}
+
+.grid {
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    background-color: #FBE9D2;
+}
+
+/* Header */
+
+header {
+    height: 80px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0 9px 20px 0px rgba(0, 0, 0, 0.2), 0 9px 20px 0px rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+    width: 250px;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contato2 {
+    padding: 5px 15px 5px 15px;
+    background-color: #43251D;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border-style: none;
+    font-weight: bold;
+}
+
+.button1 {
+    font-size: 16px;
+    padding: 6px 16px 6px 16px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+main h2 {
+    line-height: 45px;
+    max-width: 500px;
+    font-size: 50px;
+}
+
+main p {
+    margin-top: 5px;
+    font-size: 25px;
+    max-width: 450px;
+    font-weight: bold;
+}
+
+.button2 {
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 8px 15px 8px 15px;
+    font-weight: bolder;
+}
